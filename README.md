@@ -7,6 +7,7 @@ Integrantes: Jeancarlos Almonte Padilla · Stuart Brandon Capellán De Los Santo
 
 
 **Entregable 1 Detector red**
+
 network.service.ts
 import { Injectable } from '@angular/core';
 import { BehaviorSubject } from 'rxjs';
