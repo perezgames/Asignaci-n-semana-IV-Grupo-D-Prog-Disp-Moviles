@@ -1,6 +1,11 @@
 # Asignación-semana-IV-Grupo-D-Prog-Disp-Moviles
 Repositorio de la asignación de la semana IV del Facilitador Joan Gregorio Pérez 
 
+Este repositorio contiene el desarrollo de la Unidad 4 de Proyección Dispositivos Móviles, enfocado en la implementación de un módulo de conectividad para aplicaciones móviles híbridas con Ionic y Capacitor.
+El proyecto está dividido en dos partes: un detector de estado de red que indica en tiempo real si el dispositivo tiene conexión a internet, y un modo offline funcional integrado en la app MedicAlert RD, que permite guardar datos localmente cuando no hay conexión y sincronizarlos automáticamente con Firebase Firestore al recuperarla.
+Integrantes: Jeancarlos Almonte Padilla · Stuart Brandon Capellán De Los Santos · Jan Michael Perez Feliz
+
+
 **Entregable 1 Detector red**
 network.service.ts
 import { Injectable } from '@angular/core';
